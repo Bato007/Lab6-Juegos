@@ -144,4 +144,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4014b5aa1dad4040b700cb3287c2dd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yoshiS: {fileID: 8686874159228029461, guid: af51216b07ffeb34592046165a85fff7, type: 3}
   jumpForce: 5

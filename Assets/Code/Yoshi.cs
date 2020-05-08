@@ -6,6 +6,7 @@ public class Yoshi : MonoBehaviour
 {
 
     private Rigidbody2D yoshi;
+    public Sprite yoshiS;
     private bool canKilled = true;
 
     public float jumpForce = 5f;
@@ -57,6 +58,7 @@ public class Yoshi : MonoBehaviour
         if (collision.gameObject.CompareTag("Star"))
         {
             Destroy(collision.gameObject);
+            gameObject.GetComponent<SpriteRenderer>().sprite = yoshiS;
             canKilled = false;
         }                      
     }
